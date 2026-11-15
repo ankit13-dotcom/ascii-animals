@@ -22,7 +22,7 @@ Everywhere:
 - the last animal picked is remembered between visits
 - a liquid-glass chat input in the middle, a concept redesign after Dia's AI input (not affiliated with Dia):
   Dia's dome (`public/dia-logo.png`, cut out of a screenshot) and a greeting by the time of day
-  ("Still up, Stephen?" after 10pm) above it, then "Ask anything...",
+  ("Still up, Ankit?" after 10pm) above it, then "Ask anything...",
   "Add tabs or files", voice and send (UI only: Enter fires a `chat:submit` event on the form with `{ text }`); the refraction
   uses an SVG filter in Chromium and falls back to frosted glass elsewhere
 - a **Tweaks** panel (top right): shared Movement and Look sliders plus each animal's own,

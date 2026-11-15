@@ -1,7 +1,7 @@
 /**
  * Page chrome shared by every scene: glass segmented choices and the chat composer.
  */
-/** A greeting by the local time: "Good morning, Stephen" … "Still up, Stephen?" after 10pm. */
+/** A greeting by the local time: "Good morning, Ankit" … "Still up, Ankit?" after 10pm. */
 export function greetingFor(name: string, date = new Date()) {
   const h = date.getHours();
   if (h >= 5 && h < 12) return `Good morning, ${name}`;
